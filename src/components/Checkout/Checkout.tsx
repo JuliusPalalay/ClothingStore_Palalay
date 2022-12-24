@@ -1,9 +1,9 @@
-import { useContext, useState } from "react";
+import { useContext} from "react";
 import { Product } from "../../models";
 import { CheckoutCard } from "../CheckoutCard";
 
 import { ShopContext } from "../Context/useContext";
-import { Labels, PriceContainer, ProductsWrapper, Title, Total, TotalAmount, TotalAmountLabel, TotalItems, TotalItemsLabel } from "./Checkout.styled";
+import { Labels, PriceContainer, ProductsWrapper, Title, Total, TotalAmount, TotalAmountLabel} from "./Checkout.styled";
 
 export const Checkout = () => {
   const { products, total} = useContext(ShopContext);

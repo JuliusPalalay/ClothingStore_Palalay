@@ -11,8 +11,11 @@ export const Title = styled.p`
 
 
 export const ProductsWrapper = styled.div`
-  display: block;
   width: fit-content;
+  background: white;
+  background-image: linear-gradient(to bottom right,  whitesmoke,grey,black);
+  border-radius:25px;
+
  
 `;
 
@@ -73,12 +76,4 @@ export const TotalAmount = styled.p`
   margin-top: 0;
   margin-bottom: 10px;
   margin-right: 0;
-`;
-
-export const TotalItems = styled.p`
-text-align: end;
-  font-weight: normal;
-  font-size: 15px;
-  color: #000;
-  margin: 0;
 `;
