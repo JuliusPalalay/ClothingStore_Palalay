@@ -6,7 +6,7 @@ import { ShopContext } from "../Context/useContext";
 import { Labels, PriceContainer, ProductsWrapper, Title, Total, TotalAmount, TotalAmountLabel, TotalItems, TotalItemsLabel } from "./Checkout.styled";
 
 export const Checkout = () => {
-  const { products, total, totalitems } = useContext(ShopContext);
+  const { products, total} = useContext(ShopContext);
  
 
 

@@ -10,16 +10,9 @@ import {
   } from './Checkoutcard.styled';
   
   import { Product } from '../../models';
-  import { useContext } from 'react';
-  import { ShopContext} from '../Context/useContext';
   
   export const CheckoutCard = ({ name, imageUrl, price,quantity }: Product) => {
-    const {products} = useContext(ShopContext);
- 
-   
-  
-  
-  
+    
   
     return (
       <Wrapper>
