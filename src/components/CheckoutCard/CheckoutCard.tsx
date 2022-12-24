@@ -1,13 +1,4 @@
-import {
-    ImgWrapper,
-    Price,
-    PriceContainer,
-    SubTitle,
-    TextContainer,
-    Title,
-    TotalAmount,
-    Wrapper,
-  } from './Checkoutcard.styled';
+import { ImgWrapper, Price, PriceContainer, SubTitle, TextContainer, Title, TotalAmount, Wrapper,} from './Checkoutcard.styled';
   
   import { Product } from '../../models';
   
