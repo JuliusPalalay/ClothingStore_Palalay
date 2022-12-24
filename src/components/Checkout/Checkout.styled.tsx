@@ -9,13 +9,13 @@ export const Title = styled.p`
 `;
 
 
-
+ 
 export const ProductsWrapper = styled.div`
   width: fit-content;
   background: white;
   background-image: linear-gradient(to bottom right,  whitesmoke,grey,black);
   border-radius:25px;
-
+  color:white;
  
 `;
 
@@ -30,12 +30,14 @@ export const Total = styled.div`
   overflow: hidden;
   position: relative;
   margin-top: 10px;
+  color:white;
 `;
 
 export const Labels = styled.div`
   display: block;
   gap: 10px;
   width: 225px;
+  color:white;
   
 `;
 
@@ -45,16 +47,16 @@ export const TotalAmountLabel = styled.p`
   font-style: normal;
   font-size: 20px;
   margin: 0;
-  color: #000;
   margin-bottom: 10px;
   margin-left: 0;
+  color:white;
 `;
 
 export const TotalItemsLabel = styled.p`
   font-weight: normal;
   font-size: 15px;
-  color: #000;
   margin: 0;
+  color:white;
 `;
 
 
@@ -63,6 +65,7 @@ export const PriceContainer = styled.div`
   align-items: flex-end;
   gap: 10px;
   width: 225px;
+  color:white;
   
 `;
 
@@ -72,8 +75,8 @@ export const TotalAmount = styled.p`
   font-style: normal;
   font-size: 20px;
   margin: 0;
-  color: #000;
   margin-top: 0;
   margin-bottom: 10px;
   margin-right: 0;
+  color:white;
 `;
